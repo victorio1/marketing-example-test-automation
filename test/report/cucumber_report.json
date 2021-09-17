@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1905937000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginSteps.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify Login Passed",
+        "description": "",
+        "id": "marketing-login;verify-login-passed",
+        "after": [
+          {
+            "result": {
+              "duration": 1203081300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4578131500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am at SmartPyme Marketing Web Site",
+            "match": {
+              "location": "loginSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1800224200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I write my username \"amoscoso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amoscoso",
+                  "offset": 21
+                }
+              ],
+              "location": "loginSteps.writeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141620600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I write my password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 21
+                }
+              ],
+              "location": "loginSteps.writePassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116819000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select the Sign In Button",
+            "match": {
+              "location": "loginSteps.clickSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1319971500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify what the label Admistration is \"ALAIN MARCEL MOSCOSO MORALES\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ALAIN MARCEL MOSCOSO MORALES",
+                  "offset": 41
+                }
+              ],
+              "location": "loginSteps.verifyLabelAdministration(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Marketing Login",
+    "description": "\r\nThis caracteristic is about a login from\r\nSmartPyme Marketing for make campaigns",
+    "id": "marketing-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
